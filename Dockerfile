@@ -1,4 +1,4 @@
-FROM python:3.10.4
+FROM python:3.8
 WORKDIR /python-docker
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
