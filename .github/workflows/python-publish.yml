@@ -1,4 +1,4 @@
-
+---
 name: Build a docker image and push it to AWS ECR
 on:
   release:
@@ -27,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Hadolint linting
-        uses: brpaz/hadolint-action@master
+        uses: brpaz/hadolint-action@main
 
   build-push:
     name: Build and push
